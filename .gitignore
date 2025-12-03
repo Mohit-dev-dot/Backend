@@ -1,10 +1,6 @@
-# ignore environment files
+# never track secrets
 .env
-.env.local
-.env.development
-.env.production
-.env.test
-
-# Optional (Node.js backend)
+.env.*
+*.env
 node_modules/
 dist/

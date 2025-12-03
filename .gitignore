@@ -1,0 +1,10 @@
+# ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Optional (Node.js backend)
+node_modules/
+dist/
